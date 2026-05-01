@@ -13,6 +13,10 @@ cd ~/dotfiles/dotfiles
 Altere a config de monitor do hyprland.conf
 
 # Essenciais
+### hyprland
+```bash
+sudo pacman -S hyprland hyprpaper
+```
 ### Kitty, Waybar, Neovim, Flatpak, git, btop, speedtest
 ```bash
 sudo pacman -S pacman kitty waybar neovim flatpak git btop speedtest-cli
