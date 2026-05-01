@@ -1,2 +1,43 @@
 # rice-moccha
-Primeiro rice no archlinux + hyprland
+
+# Dotfiles
+
+Minha configuração do Hyprland, Kitty, Neovim e Waybar.
+
+# Instalação
+
+```bash
+git clone https://github.com/SEU_USUARIO/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+./install.sh
+```
+
+# Essenciais
+### Kitty, Waybar, Neovim, Flatpak
+```bash
+sudo pacman -S pacman kitty, waybar, neovim, flatpak
+```
+
+### Thunar + plugins
+```bash
+sudo pacman -S thunar thunar-archive-plugin thunar-media-tags-plugin thunar-shares-plugin thunar-vcs-plugin thunar-volman
+```
+
+## Utilitários que uso
+### VLC, Bluejay, PulseAudio Volume Control, ProntonPlus, Relógios, editor TXT, Visualizador de imagens
+```bash
+flatpak install flathub org.videolan.VLC
+flatpak install flathub io.github.ebonjaeger.bluejay
+sudo pacman -S pacman pavucontrol
+flatpak install flathub com.vysp3r.ProtonPlus
+flatpak install flathub org.gnome.clocks
+flatpak install flathub org.gnome.TextEditor
+flatpak install flathub org.gnome.Loupe
+```
+
+# Comandos básicos
+```
+SUPER + ENTER = abrir terminal
+SUPER + / = lista de binds personalizadas
+SUPER + . = abrir o hyprland.conf
+```
