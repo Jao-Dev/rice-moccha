@@ -7,8 +7,8 @@ Minha configuração do Hyprland, Kitty, Neovim e Waybar.
 # Instalação
 
 ```bash
-git clone https://github.com/SEU_USUARIO/dotfiles.git ~/dotfiles
-cd ~/dotfiles
+git clone https://github.com/Jao-Dev/rice-moccha.git ~/dotfiles
+cd ~/dotfiles/dotfiles
 ./install.sh
 ```
 
