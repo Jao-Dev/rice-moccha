@@ -1,0 +1,20 @@
+{
+   "include": [
+     "$HOME/.config/waybar/Modules",
+     "$HOME/.config/waybar/ModulesCustom",
+     ],
+
+    "layer": "top",
+    "position": "top",
+    "margin-top": 0,
+    "width": 2560,
+    "modules-left": [ "hyprland/workspaces", "tray","mpris", "custom/pacman"],
+    "modules-center": [ "clock" ],
+    "modules-right": [ "bluetooth", "network", "pulseaudio", "custom/power"  ],
+    "sway/window": {
+        "max-length": 100
+    },
+    
+ 
+}
+
