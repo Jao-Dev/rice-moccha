@@ -1,30 +1,7 @@
-{
-    "custom/power": {
-	"format": "⏻",
-	"on-click": "$HOME/.config/hypr/scripts/Wlogout.sh",
-	"on-click-right": "$HOME/.config/hypr/scripts/ChangeBlur.sh",
-	"tooltip": true,
-	"tooltip-format":"Shutdown",
-},
-
-"custom/reboot": {
-    "format": "",
-    "on-click": "systemctl reboot",
-    "tooltip": true,
-	"tooltip-format": "Reboot",
-},
-
 //Groups..
 
 
-"group/main": {
-	"orientation": "inherit",
-	"modules": [
-		"custom/omarchy",
-		"custom/separator#blank",
-		"custom/vicinae",
-	]
-},
+
 
 // Separators
 
