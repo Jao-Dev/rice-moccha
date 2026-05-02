@@ -3,9 +3,10 @@
 {
     
     "clock": {
-        "format": "{:%A  |  %H:%M  |  %e %B}",
-        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+        "format": "{:L%A  |  %H:%M  |  %e de %B}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><big>{calendar}</big></tt>"
      },
+  
 
    "pulseaudio": {
     "format": "{icon} {volume}%",
@@ -85,5 +86,6 @@
     "format": "ᛒ",
     "on-click": "io.github.ebonjaeger.bluejay", 
   },
+
 
 }
